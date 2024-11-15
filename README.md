@@ -12,3 +12,23 @@
 - **React**
 - **CSS**
 - **HTML**
+
+## 🚀 Installation and Usage
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/JhoselPR/space-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd space-app
+   ```
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Enjoy!
