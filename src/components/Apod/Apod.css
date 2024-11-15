@@ -1,0 +1,26 @@
+.apod-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin: 130px 15% 0 15%;
+}
+.title-apod {
+    font-size: 60px;
+    color: var(--primary);
+}
+.date-apod{
+    margin-top: 20px;
+    font-size: 30px;
+    color: var(--secondary);
+}
+.text-apod{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+.img-apod{
+    max-width: 700px;
+    padding: 10px;
+    border-radius: 20px;
+}

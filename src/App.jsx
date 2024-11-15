@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Astros from './components/Astros/Astros.jsx';
-// import Apod from './components/Apod/Apod.jsx';
+import Apod from './components/Apod/Apod.jsx';
 import { Routes, Route } from 'react-router-dom';
 import Starfield from 'react-starfield';
 import Home from './components/Home/Home.jsx'
@@ -28,7 +28,7 @@ function App() {
       <Route element={<Astros/>} path="/astros"/>
       <Route element={<Home/>} path="/home"/>
       <Route element={<About/>} path="/about"/>
-      {/* <Route element={<Apod/>} path="/apod"/> */}
+      <Route element={<Apod/>} path="/apod"/>
     </Routes>
     </>
   )
