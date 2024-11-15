@@ -1,6 +1,6 @@
 # space-app
 
-**space-app** is an application built with **React** that allows you to explore space through real-time data and visual content provided by specialized APIs. 🚀✨
+**space-app** is an application built with **React** that allows you to explore space through real-time data and visual content provided by specialized APIs.
 
 ## Features
 
@@ -11,3 +11,4 @@
 
 - **React**
 - **CSS**
+- **HTML**
