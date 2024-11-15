@@ -9,7 +9,7 @@ import About from './components/About/About.jsx'
 
 function App() {
   const links = [
-    { href: '/home', text: 'home'},
+    { href: '/', text: 'home'},
     { href: '/about', text: 'about'},
     { href: '/astros', text: 'astros'},
     { href: '/apod', text: 'apod'}
@@ -26,7 +26,7 @@ function App() {
     <Navbar links = {links}/>
     <Routes>
       <Route element={<Astros/>} path="/astros"/>
-      <Route element={<Home/>} path="/home"/>
+      <Route element={<Home/>} path="/"/>
       <Route element={<About/>} path="/about"/>
       <Route element={<Apod/>} path="/apod"/>
     </Routes>
