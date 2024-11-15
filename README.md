@@ -13,7 +13,7 @@
 - **CSS**
 - **HTML**
 
-## 🚀 Installation and Usage
+## Installation and Usage
 
 1. Clone this repository:
    ```bash
