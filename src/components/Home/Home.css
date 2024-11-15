@@ -1,0 +1,22 @@
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.home-img{
+    margin-top: 60px;
+    width: 450px;
+}
+.home-title{
+    margin-top: 130px;
+    color: var(--primary);
+    font-size: 70px;
+}
+.home-text{
+    width: 650px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+}

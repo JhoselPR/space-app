@@ -1,13 +1,14 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Astros from './components/Astros/Astros.jsx';
-import Apod from './components/Apod/Apod.jsx';
+// import Apod from './components/Apod/Apod.jsx';
 import { Routes, Route } from 'react-router-dom';
 import Starfield from 'react-starfield';
+import Home from './components/Home/Home.jsx'
 
 function App() {
   const links = [
-    { href: '/', text: 'home'},
+    { href: '/home', text: 'home'},
     { href: '/astros', text: 'astros'},
     { href: '/apod', text: 'apod'},
   ]
@@ -23,7 +24,8 @@ function App() {
     <Navbar links = {links}/>
     <Routes>
       <Route element={<Astros/>} path="/astros"/>
-      <Route element={<Apod/>} path="/apod"/>
+      <Route element={<Home/>} path="/home"/>
+      {/* <Route element={<Apod/>} path="/apod"/> */}
     </Routes>
     </>
   )
