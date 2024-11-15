@@ -15,7 +15,7 @@
     font-size: 70px;
 }
 .home-text{
-    width: 650px;
+    max-width: 650px;
     margin-top: 40px;
     font-size: 20px;
     color: white;

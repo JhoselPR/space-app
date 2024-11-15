@@ -15,7 +15,7 @@ function Navbar({ links }) {
 
     return (
         <header className='header'>
-            <Link className='title' to="/">space-app</Link>
+            <Link className='title' to="/home">space-app</Link>
             <nav className="navbar">
                 {
                     links.map((link, idx) => (
