@@ -1,0 +1,39 @@
+.astros-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-top: 50px;
+    place-items: center;
+    gap: 30px;
+    row-gap: 15px;
+    width: 100vw;
+}
+.astro-card{
+    min-width: 300px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    border: 2px solid #2d2b43;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
+.astro-card:hover {
+    border-color: var(--secondary);
+  }
+.astro-name{
+    font-size: 25px;
+    font-weight: 600;
+}
+.astro-craft{
+    font-size: 20px;
+    font-weight: 600;
+}
+.title-astros{
+    margin-top: 130px;
+    text-align: center;
+    color: var(--primary);
+}

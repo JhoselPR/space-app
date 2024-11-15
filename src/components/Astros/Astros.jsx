@@ -26,6 +26,8 @@ function Astros(){
     }, [])
 
     return (
+        <>
+        <h1 className="title-astros">Astronauts</h1>
         <div className="astros-container">
             {!astros ? (
                 <CircularProgress sx={{ color: "grey.500" }}/>
@@ -35,6 +37,7 @@ function Astros(){
                 ))
             }
         </div>
+        </>
     )
 }
 

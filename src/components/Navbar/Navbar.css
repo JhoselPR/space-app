@@ -1,0 +1,41 @@
+.title {
+    font-size: 35px;
+    color: #FFA3FD;
+    font-weight: 700;
+    text-shadow: 0 0 15px var(--secondary);
+    transition: 0.3s ease;
+}
+.title:hover{
+    transform: scale(1.1);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(9, 9, 9);
+    padding: 20px 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    margin-left: 40px;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--secondary);
+    transition: 0.3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
