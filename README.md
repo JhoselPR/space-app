@@ -10,6 +10,7 @@
 ## Technologies Used
 
 - **React**
+- **JavaScript**
 - **CSS**
 - **HTML**
 
