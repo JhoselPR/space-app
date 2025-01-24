@@ -2,6 +2,7 @@ import './About.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import Astronaut from '../../assets/2130.jpg';
 
 const About = () => {
     return (
@@ -16,7 +17,7 @@ const About = () => {
                 <a href="mailto: felix.jhosel@gmail.com"><EmailIcon className='icon' sx={{ fontSize: 40 }} /></a>
             </div>
             <div className="about-img">
-                <img src="src\assets\2130.jpg" alt="astronaut drawing" />
+                <img src={Astronaut} alt="astronaut drawing" />
             </div>
         </div>
     )
